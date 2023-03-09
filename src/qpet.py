@@ -342,7 +342,7 @@ class qpet:
             'g_ut': 1,
             'cmd': 'abysstide',
             'op': 'enterabyss',
-            'id': 3
+            'id': 2
         }
         op_list = ['beginfight', 'endabyss']
         for num in range(2):
@@ -999,13 +999,13 @@ class qpet:
         print('----------群雄逐鹿----------')
         self.thrones_battle()
         print('----------幻境----------')
-        self.misty()
+        #self.misty()
         print('----------斗神塔----------')
         self.tower_fight()
         print('----------抢地盘----------')
         self.grab_territory()
         print('----------画卷谜踪----------')
-        self.scroll_dungeon()
+        #self.scroll_dungeon()
         print('----------十二宫----------')
         self.zodiac_dungeon()
         print('----------镖行天下----------')
